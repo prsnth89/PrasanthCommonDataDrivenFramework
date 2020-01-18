@@ -95,7 +95,7 @@ public class CommonFunctions extends BaseTest {
              }catch(Exception e) {
                      
                      System.out.println("Element not found in getElement catch method----"+locatorName);
-             //        report.addStepsInReport(Utils.testCaseId, Utils.pageName, "Get the element", "System should find the given webelement", "System failed to find the element", "N/A", Status.Fail);
+                     report.addStepsInReport(Utils.testCaseId, Utils.pageName, "Get the element", "System should find the given webelement", "System failed to find the element", "N/A", Status.Fail);
                      
                      
              }
@@ -222,7 +222,7 @@ public class CommonFunctions extends BaseTest {
                      report.addStepsInReport(Utils.testCaseId, Utils.pageName, "enterTestDataAndUseEnter "+locatorName, "System should enter the test data", "System entered the test data",testData, Status.Done);
                      
              } catch (NoSuchElementException e) {
-            	    report.addStepsInReport(Utils.testCaseId, Utils.pageName, "enterTestDataAndUseEnter "+locatorName, "System should enter the test data", "System entered the test data",testData, Status.Fail);
+            	    report.addStepsInReport(Utils.testCaseId, Utils.pageName, "enterTestDataAndUseEnter "+locatorName, "System should enter the test data", "System failed to enter the test data",testData, Status.Fail);
                     System.out.println("No Element Found in enterTestData--" + locatorType+"----"+locatorName);
                     throw e;
              }

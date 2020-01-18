@@ -31,7 +31,7 @@ public class G001 extends BaseTest{
         googlePage.clickEnglish();
         googlePage.waitTime(2000);
         googlePage.searchText(searchText);
-        googlePage.clickGoogleSearchButton();
+      //  googlePage.clickGoogleSearchButton();
         
         
 		

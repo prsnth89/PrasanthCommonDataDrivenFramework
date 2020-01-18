@@ -30,7 +30,7 @@ public class G002 extends BaseTest{
         googlePage=new GooglePage(driver);
         googlePage.clickEnglish();
         googlePage.waitTime(2000);
-        googlePage.searchText(searchText);
+        googlePage.searchTextInvalid(searchText);
         googlePage.clickGoogleSearchButton();
         
         

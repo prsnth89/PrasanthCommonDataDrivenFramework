@@ -3,6 +3,7 @@ package com.prasanth.pageobjects;
 public enum GooglePageObjects {
 	
 	Search("//input[@name='q']","XPATH"),
+	SearchInvalid("//input[@nae='q']","XPATH"),
 	SearchButton("//div[contains(@class,'FPdoLc')]//input[@name='btnK']","XPATH"),
 	English("//a[text()='English']","XPATH");
 	String locator="";

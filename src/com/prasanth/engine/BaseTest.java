@@ -76,6 +76,12 @@ public abstract class BaseTest extends WebDriverFactory {
 		finally {
 			
 			driver.quit();
+			try {
+				tearDown();
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 		}
 	}
 	

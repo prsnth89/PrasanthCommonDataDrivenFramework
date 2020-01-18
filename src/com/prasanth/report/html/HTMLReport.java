@@ -269,7 +269,7 @@ public class HTMLReport extends BaseTest {
                               "    <!-- Bootstrap CSS -->\r\n" + 
                               "    <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css\" integrity=\"sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO\" crossorigin=\"anonymous\">\r\n" + 
                               "        <link rel=\"stylesheet\" type=\"text/css\" href=\"https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css\">\r\n" + 
-                              "        <link rel=\"shortcut icon\" href=\"https://upload.wikimedia.org/wikipedia/commons/f/f1/ING_logo.jpg\" type=\"image/png\" style=\" max-height:10px; max-width:10px;\">\r\n" + 
+                              "        <link rel=\"shortcut icon\" href=\"https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png\" type=\"image/png\" style=\" max-height:10px; max-width:10px;\">\r\n" + 
                               "        <title > Automation Report</title>\r\n" + 
                               "        </head>\r\n" + 
                               "        \r\n" + 
@@ -327,7 +327,7 @@ public class HTMLReport extends BaseTest {
                               "    <!-- Bootstrap CSS -->\r\n" + 
                               "    <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css\" integrity=\"sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO\" crossorigin=\"anonymous\">\r\n" + 
                               "        <link rel=\"stylesheet\" type=\"text/css\" href=\"https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css\">\r\n" + 
-                              "        <link rel=\"shortcut icon\" href=\"https://upload.wikimedia.org/wikipedia/commons/f/f1/ING_logo.jpg\" type=\"image/png\" style=\" max-height:10px; max-width:10px;\">\r\n" + 
+                              "        <link rel=\"shortcut icon\" href=\"https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png\" type=\"image/png\" style=\" max-height:10px; max-width:10px;\">\r\n" + 
                               "        <title > Automation Summary Report</title>\r\n" + 
                               "        </head>\r\n" + 
                               "        \r\n" + 

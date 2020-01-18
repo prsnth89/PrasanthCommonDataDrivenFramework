@@ -21,6 +21,9 @@ public class GooglePage extends CommonFunctions {
 	public void searchText(String text) {
 		enterTestDataAndUseEnter(GooglePageObjects.Search.getLocator(), GooglePageObjects.Search.getLocatorType(), text);
 	}
+	public void searchTextInvalid(String text) {
+		enterTestDataAndUseEnter(GooglePageObjects.SearchInvalid.getLocator(), GooglePageObjects.SearchInvalid.getLocatorType(), text);
+	}
 	
 	public void clickGoogleSearchButton() {
 		clickElement(GooglePageObjects.SearchButton.getLocator(), GooglePageObjects.SearchButton.getLocatorType());
