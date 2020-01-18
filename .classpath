@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="G:/automation/INGFrameworkAndRepository/repository/jars/ATUTestRecorder_2.1.jar"/>
+	<classpathentry kind="lib" path="G:/automation/INGFrameworkAndRepository/repository/jars/extentreports-3.1.5.jar"/>
+	<classpathentry kind="lib" path="G:/automation/INGFrameworkAndRepository/repository/jars/poi-3.6-20091214.jar"/>
+	<classpathentry kind="lib" path="G:/automation/INGFrameworkAndRepository/repository/jars/poi-ooxml-3.6-20091214.jar"/>
+	<classpathentry kind="lib" path="G:/automation/INGFrameworkAndRepository/repository/jars/poi-ooxml-schemas-3.6-20091214.jar"/>
+	<classpathentry kind="lib" path="G:/automation/INGFrameworkAndRepository/repository/jars/jsch-0.1.55.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="G:/automation/INGFrameworkAndRepository/repository/jars/selenium-server-standalone-3.9.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

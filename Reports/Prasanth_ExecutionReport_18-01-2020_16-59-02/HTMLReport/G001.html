@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+   <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
+        <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/f/f1/ING_logo.jpg" type="image/png" style=" max-height:10px; max-width:10px;">
+        <title > Automation Report</title>
+        </head>
+        
+        
+  <body>
+    <div class="container">
+        <div class="text-center">
+ <img src="data:image/jpeg;base64,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" alt="400*400" class="img-thumbnail" style=" max-height: 400px; max-width: 400px;"> 
+        </div>
+ 
+        <div class="row" >
+        
+      <tr> </tr>
+      <div class="col-md-12 border" style="color: black; font-size:14px">
+      <table class="table table-striped table-bordered table-secondary">
+          <h2><p class="text-center" style="background-color: rgb(255,98,0);color: white; font-size:24px">Prasanth_Automation Execution Report_G001</p>
+
+           <tr style="background-color: rgb(255,98,0);color: white; font-size:14px">
+            <th scope="col">Date</th>
+        <th scope="col">User</th>
+            <th scope="col">Platform</th>
+        <th scope="col">Environment</th>
+            <th scope="col">Browser</th>
+            <th scope="col">url</th>
+       </tr>
+        
+      <tr>
+       <td>18-01-2020</td>
+       <td>null</td>
+           <td>Windows</td>
+           <td>Test</td>
+           <td>chrome</td>
+           <td>https://www.google.com/</td>
+          </tr><table class="table table-striped table-bordered table-secondary" >          
+         <tr style="background-color: rgb(255,98,0);color: white; font-size:14px">
+          <th scope="col">Test Steps</th>
+          <th scope="col">Pass</th>
+          <th scope="col">Fail</th>
+          <th scope="col">Start Time</th>
+          <th scope="col">End Time</th>
+          <th scope="col">Total Time(Mins)</th>
+        </tr>
+          
+         <tr>
+      <td>2</td>
+      <td>1</td>
+          <td>1</td>
+          <td>16:59:02</td>
+          <td>16:59:10</td>
+          <td>00:00:08</td>
+          </tr>
+   </table> <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+         <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
+        <script>        
+                $(document).ready(function() {
+                $('#dataTable').DataTable();
+                } );
+        </script>
+   
+   
+    
+        
+         <table class="table table-striped table-bordered" id="dataTable">
+          
+         <thead class="">
+          <tr style="background-color: rgb(255,98,0);color: white;">
+          <th scope="col">Steps</th>
+          <th scope="col">PageName</th>
+      <th scope="col">Step Description</th>
+      <th scope="col">Expected Result</th>
+      <th scope="col">Actual Result</th>
+          <th scope="col">Test Data</th>
+          <th scope="col">Result</th>
+    </tr>
+ </thead><tr>
+      <td>1</td>
+          <td>GooglePage</td>
+      <td>Click the element //a[text()='English']</td>
+      <td>System should click the given webelement</td>
+      <td>System clicked the given webelement</td>
+          <td>N/A</td>
+          <td>DONE </td>
+        </tr><tr>
+      <td>2</td>
+      <td>GooglePage</td>
+      <td>Enter test data</td>
+      <td>System should enter the test data in //input[@name='q']field</td>
+      <td>System failed to enter the test data--Exception Reason--WebElement not found/invalid locator typeunknown error: keys should be a string
+  (Session info: chrome=79.0.3945.117)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:42:28.403Z'
+System info: host: 'LAPTOP-62EKUM01', ip: '192.168.1.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_212'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\rishi\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.117, webStorageEnabled: true}
+Session ID: 60f189eeca0f525d9347bac21ed426e5</td>
+          <td>null</td>
+          <td><a href=../Screenshot/screenshot1579363150101.png>FAIL</a> </td>
+         
+    </tr></table>
+ </table>
+ </div>
+    
+  </div>
+</div>
+
+ 
+  </body>
+</html>
