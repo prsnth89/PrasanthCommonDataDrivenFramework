@@ -2,15 +2,15 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18746" started-at="2020-01-18T18:52:29Z" finished-at="2020-01-18T18:52:48Z">
+  <suite name="Default suite" duration-ms="17799" started-at="2020-01-18T21:28:15Z" finished-at="2020-01-18T21:28:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18746" started-at="2020-01-18T18:52:29Z" finished-at="2020-01-18T18:52:48Z">
+    <test name="Default test" duration-ms="17799" started-at="2020-01-18T21:28:15Z" finished-at="2020-01-18T21:28:33Z">
       <class name="com.prasanth.testscripts.google.G001">
-        <test-method status="PASS" signature="testGoogle()[pri:0, instance:com.prasanth.testscripts.google.G001@4b1c1ea0]" name="testGoogle" duration-ms="18715" started-at="2020-01-18T18:52:29Z" finished-at="2020-01-18T18:52:48Z">
+        <test-method status="PASS" signature="testGoogle1()[pri:0, instance:com.prasanth.testscripts.google.G001@4b1c1ea0]" name="testGoogle1" duration-ms="17774" started-at="2020-01-18T21:28:15Z" finished-at="2020-01-18T21:28:33Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testGoogle -->
+        </test-method> <!-- testGoogle1 -->
       </class> <!-- com.prasanth.testscripts.google.G001 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

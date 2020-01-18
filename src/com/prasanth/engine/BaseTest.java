@@ -82,10 +82,15 @@ public abstract class BaseTest extends WebDriverFactory {
 	public void initializeRegressionProperty() throws Exception {
 		ATUTestRecorder recorder=null;
 		try {
+			fileInput=new FileInputStream(System.getProperty("user.dir")+File.separator+"GlobalSettings.properties");
+			properties=new Properties();
+			properties.load(fileInput);
+		
 			report =new HTMLReport(driver);
 			recorder=new ATUTestRecorder(System.getProperty("user.dir")+File.separator+"Reports","scriptrecording",false);
 			recorder.start();
 			executeTestCase();
+		
 		}catch(Exception e) {
 			isFailIndividualExecution=true;
 					
@@ -95,7 +100,7 @@ public abstract class BaseTest extends WebDriverFactory {
 			tearDown();
 			recorder.stop();
 			recorder=null;
-			driver.quit();
+		//	driver.quit();
 		}
 		
 	}

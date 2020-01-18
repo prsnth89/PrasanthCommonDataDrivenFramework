@@ -14,7 +14,7 @@ public class G001 extends BaseTest{
 	ReadExcel readExcel;
 	
 	@Test
-	public void testGoogle() {
+	public void testGoogle1() {
 		intializeAllProperty();
 	}
 	

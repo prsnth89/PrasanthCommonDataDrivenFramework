@@ -335,7 +335,7 @@ public class HTMLReport extends BaseTest {
                               "  <body>\r\n" + 
                               "    <div class=\"container\">\r\n" + 
                               "        <div class=\"text-center\">\r\n" + 
-                              "        <img src=\"https://upload.wikimedia.org/wikipedia/commons/f/f1/ING_logo.jpg\" class=\"rounded\" alt=\"400*400\" class=\"img-thumbnail\" style=\" max-height: 400px; max-width: 400px;\"> \r\n" + 
+                              "        <img src=\"https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png\" class=\"img-thumbnail\" style=\" max-height: 400px; max-width: 400px;\"> \r\n" + 
                               "        </div>\r\n" + 
                               "        \r\n" + 
                               "        \r\n" + 
@@ -345,7 +345,7 @@ public class HTMLReport extends BaseTest {
                               "      <tr> </tr>\r\n" + 
                               "      <div class=\"col-md-12 border\" style=\"color: black; font-size:14px\">\r\n" + 
                               "      <table class=\"table table-striped table-bordered table-secondary\">\r\n" + 
-                              "          <h2><p class=\"text-center\" style=\"background-color: rgb(255,98,0);color: white; font-size:24px\">Billing_TBMS_Automation Execution Summary Report</p>\r\n" + 
+                              "          <h2><p class=\"text-center\" style=\"background-color: rgb(255,98,0);color: white; font-size:24px\">Prasanth_Automation Execution Summary Report</p>\r\n" + 
                               "\r\n" + 
                               "           <tr style=\"background-color: rgb(255,98,0);color: white; font-size:14px\">\r\n" + 
                               "            \r\n" + 

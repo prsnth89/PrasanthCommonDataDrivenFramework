@@ -25,14 +25,14 @@ public class Suite1 extends BaseTest {
 		
 		if(!isFailIndividualExecution) {
 			g001=new G001();
-			g001.executeTestCase();
+			g001.testGoogle1();
 			
 			
 		}
 		
 		if(!isFailIndividualExecution) {
 			g002=new G002();
-			g002.executeTestCase();
+			g002.testGoogle2();
 			
 			
 		}

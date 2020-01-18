@@ -14,7 +14,7 @@ public class G002 extends BaseTest{
 	ReadExcel readExcel;
 	
 	@Test
-	public void testGoogle() {
+	public void testGoogle2() {
 		intializeAllProperty();
 	}
 	
@@ -25,9 +25,11 @@ public class G002 extends BaseTest{
         Utils.testCaseId=getPageName();
         
         readExcel=new ReadExcel();
-        String searchText=readExcel.getTestData("testdata", "data", 1, "SearchText");
+        String searchText=readExcel.getTestData("TestData2", "Sheet1", 1, "SearchData");
         
         googlePage=new GooglePage(driver);
+        googlePage.clickEnglish();
+        googlePage.waitTime(2000);
         googlePage.searchText(searchText);
         googlePage.clickGoogleSearchButton();
         

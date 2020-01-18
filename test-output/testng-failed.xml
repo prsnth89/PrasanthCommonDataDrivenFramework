@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.prasanth.testscripts.google.G001">
+      <class name="com.prasanth.regressionsuite.Suite1">
         <methods>
-          <include name="testGoogle"/>
+          <include name="testRegression"/>
         </methods>
-      </class> <!-- com.prasanth.testscripts.google.G001 -->
+      </class> <!-- com.prasanth.regressionsuite.Suite1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
